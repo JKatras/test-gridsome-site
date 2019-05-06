@@ -1,13 +1,5 @@
 backend:
   name: github
-  branch: master # Branch to update (optional; defaults to master)
-
-publish_mode: editorial_workflow
-media_folder: "static/uploads"
-public_folder: "uploads"
-
-backend:
-  name: github
   repo: JKatras/test-gridsome-site
   branch: master # Branch to update (optional; defaults to master)
 
