@@ -1,8 +1,9 @@
 ---
+layout: post
 title: My first blog post
 excerpt: Here's where I test out this whole Gridsome/Netlify CMS combo
 date: 2019-05-06T22:06:13.655Z
-thumbnail: /uploads/harbinger-of-absolute-units.jpg
+thumbnail: /uploads/images/harbinger-of-absolute-units.jpg
 ---
 Cheesy grin st. agur blue cheese gouda. Jarlsberg stilton say cheese cheese on toast smelly cheese emmental edam cauliflower cheese. Cheddar cream cheese cheese triangles gouda squirty cheese swiss cheesy grin monterey jack. Red leicester.
 
