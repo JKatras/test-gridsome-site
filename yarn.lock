@@ -830,10 +830,10 @@
     semver "^5.6.0"
     sort-package-json "^1.15.0"
 
-"@gridsome/source-filesystem@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@gridsome/source-filesystem/-/source-filesystem-0.3.0.tgz#c659440d014a9337e7db3de7109b6ce11e9ac74a"
-  integrity sha512-GeVeciJ/zCIzSQBhF72iCO0v1g8T+ZKjJea28BE8Hxre7G8X/VRUCRAinpsR6WSx3yv7a1EM1qjddOomgImoPw==
+"@gridsome/source-filesystem@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@gridsome/source-filesystem/-/source-filesystem-0.5.0.tgz#7b88f5dcdde1014c6c7da5c5bcbca0e284101992"
+  integrity sha512-gTtUw3jesCG/zsIQT1k555Bn+3HC/xK46R3747olTYThldzun31wAW+YHBCc2l8mAsFp++JkCxgxKGdy8yaJhg==
   dependencies:
     chokidar "^2.0.4"
     fs-extra "^7.0.0"
@@ -841,10 +841,10 @@
     lodash "^4.17.10"
     slash "^2.0.0"
 
-"@gridsome/transformer-remark@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@gridsome/transformer-remark/-/transformer-remark-0.2.1.tgz#4d495abc21bd429160ef447f9c5a31142a46d06b"
-  integrity sha512-Hbq7FO1tQQqk7ZyH30L9bpAs6eOueeCtXwVgNDbWixtUhAiTDJPuuIg84Icvp2e0UEJIHdxPr2q678AHEPepGQ==
+"@gridsome/transformer-remark@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@gridsome/transformer-remark/-/transformer-remark-0.3.2.tgz#f4027da6c496ec5a2c2468bc595a9c311cb26c76"
+  integrity sha512-OGZvYli8MiAdvs8CAOhaNRlEurEHWbJ3b27G5CMNMr9HsesOcKeh1TQoH/tdiInyT7OZz01anJTsRCZmUU1IjA==
   dependencies:
     gray-matter "^4.0.2"
     hash-sum "^1.0.2"
@@ -4134,16 +4134,17 @@ gray-matter@^4.0.2:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
-gridsome-plugin-netlify-cms@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/gridsome-plugin-netlify-cms/-/gridsome-plugin-netlify-cms-1.0.6.tgz#b4bc0eabda3a72bfb576cece1589675238054ece"
-  integrity sha512-1PKJCv270h9GYUZ+c2JWJr6xhZRyW4R3ojJkuLF1At/tXLl56Q+GyU5NwWbS9sgPzKYo9bUO2NVdqHk5B6T3nQ==
+gridsome-plugin-netlify-cms@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-netlify-cms/-/gridsome-plugin-netlify-cms-1.0.7.tgz#b64a030afe8ba05b4d39d873b50cff3d9eefdc39"
+  integrity sha512-24AfbQXGvpNLJKUjUMUzgH94Hya4IJUvaWTXq2uqZmk6n6IRj2uARtspbVEplULAX117bpU/wDMZooAczp7UNA==
   dependencies:
     chalk "^2.4.2"
     copy-webpack-plugin "^4.6.0"
     html-webpack-exclude-assets-plugin "0.0.7"
     html-webpack-plugin "^3.2.0"
     mini-css-extract-plugin "^0.5.0"
+    netlify-identity-widget "^1.5.2"
     val-loader "^1.1.1"
     webpack "^4.29.0"
     webpack-dev-middleware "^3.5.1"
@@ -6365,6 +6366,11 @@ netlify-cms@^2.9.1:
     netlify-cms-media-library-uploadcare "^0.5.2"
     react "^16.8.4"
     react-dom "^16.8.4"
+
+netlify-identity-widget@^1.5.2:
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/netlify-identity-widget/-/netlify-identity-widget-1.5.4.tgz#4e8f61ed6713031116ec3a723534cfc06ee3395b"
+  integrity sha512-fBv80CQMkbutLGmNMIGwaoIoYKTa5yBZWrvkPZvzvbzTdyFrUK9Q2D0SfWgbJrEbUROlMRMnpv5wNr/Jo3TzkQ==
 
 next-tick@^1.0.0:
   version "1.0.0"
