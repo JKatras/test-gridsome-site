@@ -12,29 +12,44 @@ module.exports = {
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       anchorClassName: 'icon icon-link',
       plugins: [
-        // ...global plugins
+        '@gridsome/remark-prismjs'
       ]
     }
   },
 
+  // plugins: [
+  //   {
+  //     resolve: '@gridsome/source-filesystem',
+  //     options: {
+  //       path: 'src/assets',
+  //       name: 'assets'
+  //     }
+  //   },
+  //   {
+  //     resolve: '@gridsome/source-filesystem',
+  //     options: {
+  //       path: 'content/posts',
+  //       name: 'posts'
+  //     }
+  //   },
   plugins: [
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'posts/**/*.md',
+        path: 'content/posts/*.md',
+        route: '/:slug',
         typeName: 'Post',
         remark: {
           plugins: [
-            // ...local plugins
           ]
         }
       }
     },
-    {
-      use: `gridsome-plugin-netlify-cms`,
-      options: {
-        publicPath: `/admin`
-      }
-    },
+    // {
+    //   use: `gridsome-plugin-netlify-cms`,
+    //   options: {
+    //     publicPath: `/admin`
+    //   }
+    // }
   ]
 }
